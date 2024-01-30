@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="포트폴리오 페이지입니다">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gowun+Dodum&family=Nanum+Gothic:wght@400;700&family=Noto+Sans+KR&family=Orbit&display=swap" rel="stylesheet">
+
+    <title>포트폴리오</title>
+</head>
+<body>
+
+
+    <main id="main">
+        <!--마우스 포인트-->
+        <div class="cursor"></div>
+
+        <!--헤더-->
+        <header id="header">
+           <!-- <div class="container"> --> 
+                <ul class="menu">
+                    <li class="active"><a href="#section">Home</a></li>
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#work">Work</a></li>              
+                </ul><!--//menu-->
+          <!--  </div> --> <!--//container-->
+        </header><!--//header-->
+    
+        
+        <section id="section" class="dot_btn">
+            <div class="container">   
+                <!-- 닷 메뉴 -->      
+             <div class="dot">
+                 <ul>
+                     <li class="active"><a href="#section"><span>dot1</span></a></li>
+                     <li><a href="#profile"><span>dot2</span></a></li>
+                     <li><a href="#work"><span>dot3</span></a></li>
+                    <!-- <li><a href="#"><span>dot4</span></a></li> -->
+                 </ul>
+             </div><!--//dot-->
+     
+             <!--home-->
+             <div class="intro">
+                <div class="box">
+                    <div class="inner_box"></div>
+                </div>
+                <div class="content">
+                    <p>
+                        My Portfolio<br> Page
+                    </p>
+                    <p class="content2">
+                        신입 웹퍼블리셔에 지원하는 김서진입니다
+                    </p>
+                </div>
+                 <div class="scroll_btn">
+                    <div class="button"></div><!--//button-->
+                 </div><!--//scroll_btn-->
+                
+             </div><!--//intro-->
+     
+            </div><!--//container-->
+         </section><!--//section-->
+         
+         <section id="profile" class="dot_btn">
+            <div class="container">
+                <h1>Profile</h1>
+                <div class="all">
+                    <div class="info">
+                        <span class="title">소개</span>
+                        <span class="text">웹퍼블리셔가 되기 위해 공부중입니다</span>
+                        <span class="text">실수와 오류를 통해 지식을 쌓고 있습니다</span>
+                        <span class="text">멈춰있지 않고 발전을 위해 움직이겠습니다</span>
+                    </div><!--//info-->
+                    <div class="info2">
+                        <span class="title">교육</span>
+                        <span class="text">2023.3 이젠아카데미</span>
+                        <span class="text">자바 스프링 프레임워크 응용SW개발자 양성과정 수료</span>
+                    </div>
+                    <div class="info3">
+                        <span class="title">스킬</span>
+                        <span class="text">HTML, CSS, JavaScript, JQuery</span>
+                    </div>
+                </div><!--//all-->
+            </div><!--//container-->
+         </section><!--//profile-->
+
+         <section id="work" class="dot_btn">
+            <div class="container">
+                <h1>Work</h1>
+                <div class="work_page">
+                    <div class="clone_box">
+                        <div class="img left">
+                            <img src="img/cgv.png" alt="cgv_clone">
+                            <a href="https://sssssss01.github.io/CGV_clone/" target="_blank">                          
+                                <span class="hide">상세보기</span>
+                            </a>
+                        </div><!--//img-->        
+                        
+                        <div class="img_text left">
+                            <span class="img_title">CGV_clone</span>
+                            <span class="img_txt">CGV 홈페이지를 클론코딩했습니다</span>
+                            <span class="img_txt">사용자들이 자주 사용하는 홈페이지를 클론코딩 
+                                하면서 슬라이드와 탭메뉴에 관한 기능을 알게 되었습니다.</span>
+                        </div><!--//img_text-->                        
+                    </div><!--//clone_box-->
+
+                    <div class="clone_box">
+                        <div class="img left">
+                            <img src="img/lotte.png" alt="LotteEatz_clone">   
+                            <a href="https://sssssss01.github.io/LotteEatz_clone/" target="_blank">                                                        
+                                <span class="hide">상세보기</span>
+                            </a>
+                        </div><!--//img-->        
+                        
+                        <div class="img_text left">
+                            <span class="img_title">LotteEatz_clone</span>  
+                            <span class="img_txt">LotteEatz 홈페이지를 클론코딩했습니다</span>                          
+                            <span class="img_txt">swiper 슬라이더를 사용하였고 슬라이더와 반응형에 관한
+                                공부가 되었습니다.</span>
+                        </div><!--//img_text-->                       
+
+                    </div><!--//clone_box-->
+
+                </div><!--//work_page-->
+            </div><!--//container-->
+         </section><!--//work-->
+
+         <footer id="footer">
+            <div class="container">
+                <div class="footer">
+                    <p>개인 포트폴리오 웹 사이트입니다</p>
+                    <span>Copyright 2024 kim seojin All rights reserved</span>
+                </div>
+            </div>
+        </footer>
+    
+    </main>
+    
+ 
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="css/script.js" type="text/javascript" ></script>
+
+      
+    
+</body>
+</html>
